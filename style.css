@@ -1,23 +1,45 @@
 .herobg {
-    background-color: darkcyan;
     height: 600px;
-    font-size: 16px;
-    font-family: sans-serif;
-
+    background: url("images/Header.png") no-repeat center center;
+    background-size: cover;
 }
+
+.herobg h1 {
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    color: white;
+    width: 341px;
+    font-size: 6.125em;
+    letter-spacing: -5px;
+    font-weight: 600;
+    line-height: 95%;
+    margin-top: 50px;
+}
+
+.tagline{
+    letter-spacing: 0px;
+    line-height: 100%;
+    margin-top: 50px;
+    width: 341px;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    
+}
+
 
 .navbar {
 
     font-size: 0.875em;
     margin-bottom: 0px;
-    
+
 }
 
-.navbar-toggle .icon-bar{
-     background-color: black;
+.navbar-toggle .icon-bar {
+    background-color: black;
 }
 
-.a {
+.navbar a {
     color: black;
 
 }
@@ -26,14 +48,16 @@ a:hover {
     color: white;
 }
 
-.navbar-nav li a:hover{
-    
+.navbar-nav li a:hover {
+
     background-color: #9ab156;
 }
+
 .shop {
 
     background-color: aquamarine;
     height: 680px;
+    text-align: center;
 }
 
 .aboutus {
