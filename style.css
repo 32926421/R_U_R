@@ -1,9 +1,35 @@
 .herobg {
     background-color: darkcyan;
     height: 600px;
+    font-size: 16px;
+    font-family: sans-serif;
 
 }
 
+.navbar {
+
+    font-size: 0.875em;
+    margin-bottom: 0px;
+    
+}
+
+.navbar-toggle .icon-bar{
+     background-color: black;
+}
+
+.a {
+    color: black;
+
+}
+
+a:hover {
+    color: white;
+}
+
+.navbar-nav li a:hover{
+    
+    background-color: #9ab156;
+}
 .shop {
 
     background-color: aquamarine;
